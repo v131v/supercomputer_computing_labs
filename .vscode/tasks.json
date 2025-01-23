@@ -20,6 +20,24 @@
 			"problemMatcher": [
 				"$gcc"
 			]
+		},
+		{
+			"label": "Build with MPI",
+			"type": "shell",
+			"command": "mpic++",
+			"args": [
+				"${file}",
+				"-o",
+				"mpi/build/${fileBasenameNoExtension}"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"detail": "Компиляция с использованием Clang и MPI"
 		}
 	]
 }

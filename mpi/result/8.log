@@ -1,0 +1,10 @@
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 2 mpi/build/8
+Time taken for 1 bytes message: 1.19209e-05 seconds
+Time taken for 10 bytes message: 3.8147e-06 seconds
+Time taken for 100 bytes message: 1.90735e-06 seconds
+Time taken for 1000 bytes message: 5.96046e-06 seconds
+Time taken for 10000 bytes message: 3.29018e-05 seconds
+Time taken for 100000 bytes message: 8.01086e-05 seconds
+Time taken for 1000000 bytes message: 0.000648975 seconds
+Time taken for 10000000 bytes message: 0.00213695 seconds
+Time taken for 100000000 bytes message: 0.0179439 seconds

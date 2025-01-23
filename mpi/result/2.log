@@ -1,0 +1,62 @@
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 4 mpi/build/2
+Vector size: 100000
+Scalar Product: -811709375
+Time taken: 0.000113964 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 8 mpi/build/2
+Vector size: 100000
+Scalar Product: -811709375
+Time taken: 5.6982e-05 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 16 mpi/build/2
+Vector size: 100000
+Scalar Product: -811709375
+Time taken: 5.38826e-05 seconds
+
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 4 mpi/build/2
+Vector size: 1000000
+Scalar Product: 390619715
+Time taken: 0.00113893 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 8 mpi/build/2
+Vector size: 1000000
+Scalar Product: 390619715
+Time taken: 0.000754118 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 16 mpi/build/2
+Vector size: 1000000
+Scalar Product: 390619715
+Time taken: 0.000285149 seconds
+
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 4 mpi/build/2
+Vector size: 10000000
+Scalar Product: -882834829
+Time taken: 0.00671005 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 8 mpi/build/2
+Vector size: 10000000
+Scalar Product: -882834829
+Time taken: 0.00384402 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 16 mpi/build/2
+Vector size: 10000000
+Scalar Product: -882834829
+Time taken: 0.00188398 seconds
+
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 4 mpi/build/2
+Vector size: 100000000
+Scalar Product: 1361625540
+Time taken: 0.0707281 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 8 mpi/build/2
+Vector size: 100000000
+Scalar Product: 1361625540
+Time taken: 0.046313 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 16 mpi/build/2
+Vector size: 100000000
+Scalar Product: 1361625540
+Time taken: 0.0245759 seconds

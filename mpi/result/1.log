@@ -1,0 +1,44 @@
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 4 mpi/build/1
+Vector size: 100000
+Global Max value: 999
+Time taken: 0.000194788 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 8 mpi/build/1
+Vector size: 100000
+Global Max value: 999
+Time taken: 0.000118971 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 16 mpi/build/1
+Vector size: 100000
+Global Max value: 999
+Time taken: 9.89437e-05 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 4 mpi/build/1
+Vector size: 1000000
+Global Max value: 999
+Time taken: 0.00188994 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 8 mpi/build/1
+Vector size: 1000000
+Global Max value: 999
+Time taken: 0.000928879 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 16 mpi/build/1
+Vector size: 1000000
+Global Max value: 999
+Time taken: 0.000637054 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 4 mpi/build/1
+Vector size: 10000000
+Global Max value: 999
+Time taken: 0.00665903 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 8 mpi/build/1
+Vector size: 10000000
+Global Max value: 999
+Time taken: 0.00373888 seconds
+
+v131v@i111680804:~/Desktop/tasks$ mpirun -np 16 mpi/build/1
+Vector size: 10000000
+Global Max value: 999
+Time taken: 0.00260305 seconds
