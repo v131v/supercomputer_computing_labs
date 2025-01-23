@@ -2,6 +2,7 @@
 #define UTILS_H
 
 #include <functional>
+#include <string>
 #include <vector>
 
 // Функция-обёртка для замера времени
@@ -22,5 +23,13 @@ int find_max_of_min_elements(const std::vector<std::vector<int>>& matrix);
 
 // Функция для суммирования элементов вектора
 int sum_elements(const std::vector<int>& data);
+
+// Чтение векторов из файла
+void read_vectors_from_file(const std::string& filename, std::vector<int>& vec1, std::vector<int>& vec2);
+
+// Функция для генерации файла с векторами
+void generate_vectors_file(const std::string& filename, int size);
+
+int get_random_number(int min, int max);
 
 #endif
